@@ -1,0 +1,44 @@
+<ActionBar title="shadowed-label" class="action-bar"> </ActionBar>
+<StackLayout class="p-20">
+	<ScrollView class="h-full">
+		<GridLayout rows="auto auto auto auto" class="p-20">
+			<ShadowedLabel
+			  row="0"
+			  class="h1 text-center"
+			  text="title with shadow"
+			  textShadow="0 0 6 rgb(100, 100, 200)"
+			></ShadowedLabel>
+			<ShadowedLabel
+			  row="1"
+			  text="color shadow"
+			  textShadow="2 10 4 rgb(255, 100, 100)"
+			  fontStyle="italic"
+			  fontSize="40"
+			  class="m-b-20 text-center"
+			></ShadowedLabel>
+			<Label
+			  row="2"
+			  backgroundColor="#9af"
+			  width="50%"
+			  height="50"
+			></Label>
+			<ShadowedLabel
+			  row="2"
+			  text="transparent shadow"
+			  textShadow="2 10 2 rgba(10, 10, 10, 0.5)"
+			  fontSize="30"
+			  fontFamily="serif"
+			  fontWeight="bold"
+			  class="c-black text-center"
+			></ShadowedLabel>
+
+			<ShadowedLabel
+			  row="3"
+			  class="m-t-20 c-black"
+			  style="text-shadow: 1 1 1 #55a"
+			  textWrap="true"
+			  text="long text with shadow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			></ShadowedLabel>
+		  </GridLayout>
+	</ScrollView>
+</StackLayout>
