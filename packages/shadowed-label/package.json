@@ -1,36 +1,36 @@
 {
-	"name": "@tralves/shadowed-label",
-	"version": "2.0.0",
-	"description": "A NativeScript Label that supports text shadow.",
-	"main": "index",
-	"typings": "index.d.ts",
-	"nativescript": {
-		"platforms": {
-			"ios": "6.0.0",
-			"android": "6.0.0"
-		}
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/tralves/nativescript-plugins.git"
-	},
-	"keywords": [
-		"NativeScript",
-		"JavaScript",
-		"TypeScript",
-		"iOS",
-		"Android",
-		"Shadows"
-	],
-	"author": {
-		"name": "Tiago Alves",
-		"email": "tralves@gmail.com"
-	  },
-	"bugs": {
-		"url": "https://github.com/NativeScript/plugins/issues"
-	},
-	"license": "Apache-2.0",
-	"homepage": "https://github.com/NativeScript/plugins",
-	"readmeFilename": "README.md",
-	"bootstrapper": "@nativescript/plugin-seed"
+  "name": "@tralves/shadowed-label",
+  "version": "2.0.0",
+  "description": "A NativeScript Label that supports text shadow.",
+  "main": "index",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "ios": "6.0.0",
+      "android": "6.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tralves/nativescript-plugins.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "TypeScript",
+    "iOS",
+    "Android",
+    "Shadows"
+  ],
+  "author": {
+    "name": "Tiago Alves",
+    "email": "tralves@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/tralves/nativescript-plugins/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/tralves/nativescript-plugins/tree/master/packages/shadowed-label",
+  "readmeFilename": "README.md",
+  "bootstrapper": "@nativescript/plugin-seed"
 }
